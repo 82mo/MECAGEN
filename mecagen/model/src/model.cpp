@@ -58,6 +58,7 @@ namespace mg {
     std::cout << "Timestep : " << currentTimeStep 
                 << "    Numcells : " << s->numCells[0]
                 << std::endl;
+    std::cout << "TEST MESSAGE";
 
     thrust::counting_iterator<int> first_cell(0);       
     thrust::counting_iterator<int> last_cell = first_cell + s->numCells[0];

@@ -55,7 +55,7 @@ namespace mg {
 
     s->currentTimeStep[0] = sd->currentTimeStep[0] = currentTimeStep;
 
-    std::cout << "Timestep : " << currentTimeStep 
+    std::cout << "TimestepTEST : " << currentTimeStep 
                 << "    Numcells : " << s->numCells[0]
                 << std::endl;
     std::cout << "TEST MESSAGE";
